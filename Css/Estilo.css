@@ -1,0 +1,48 @@
+body{
+    background: #D0BEAB url(/Projetos/Blog-Modelo/Imagens/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
+    justify-content: center; /*Centraliza o conteudo do body na horizontal*/
+    display: flex; /*Destrava o diplay do site*/
+    margin: 0; /*Remove a margem padrão do body*/
+    
+}
+
+#Principal{
+    /*border: 1px solid red; Foi utilizado so para entender ate onde o div vai.*/
+    width: 900px;
+    align-items: center;
+}
+
+#Menu{
+    /*border: 1px solid red;*/
+    background: #c5c5b2;
+    padding: 15px /*serve para dar espaçamento*/
+}
+
+#Conteudo{
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+.Center{
+    text-align: center;
+}
+
+.Img{
+    border: 10px solid #c3c3ae;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    /*border: 1px solid red;*/
+    padding: 5px;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.2em;
+
+}
+
